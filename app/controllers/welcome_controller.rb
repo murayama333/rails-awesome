@@ -1,6 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    name = "murayama"
-    @name.upcase!
+    @books = Book.all
   end
 end
