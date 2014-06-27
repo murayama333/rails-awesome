@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'secrets/index'
+
+  get 'secrets/show'
+
+  devise_for :users
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

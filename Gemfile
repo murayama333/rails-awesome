@@ -49,3 +49,4 @@ end
 
 gem 'newrelic_rpm'
 
+gem 'devise'
